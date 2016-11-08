@@ -1,0 +1,263 @@
+html{
+  background-color: #FAF0E6;
+}
+body{
+  width: 1280px;
+  margin: auto;
+}
+body > div{
+  text-align: center;
+  margin-left: 150px;
+  margin-right: 150px;
+}
+.container{
+  max-width: 940px;
+  margin: auto;
+}
+header{
+  background-color: #FAF0E6;
+  width: 1280px;
+  height: 128px;
+}
+.header img{
+  width: 90px;
+  height: 90px;
+  margin-top: 30px;
+  box-sizing: border-box;
+}
+.header p{
+  color: #880000;
+  font-family: Tahoma;
+  font-size: 13px;
+  text-align: center;
+  margin-top: -10px;
+  margin-bottom: 54px;
+}
+.side_nav{
+  margin-top: 60px;
+  margin-bottom: 150px;
+}
+.side_nav ul{
+  margin: 0px;
+  padding: 0px;
+}
+.side_nav li{
+  list-style: none;
+  float: left;
+  margin-left: 107px;
+}
+.side_nav a{
+  color: #FFF0F5;
+  font-family: Tahoma;
+  font-size: 16px;
+  text-decoration: none;
+  display: block;
+  width: 78px;
+  height: 20px;
+  padding: 10px;
+  background-color: #BC8F8F;
+}
+.side_nav li li{
+  float: none;
+  margin-right: 0px;
+}
+.nav{
+  position: absolute;
+}
+.side_nav li ul{
+  position: absolute;
+  display: none;
+  left:46.9%;
+}
+.side_nav li:hover ul{
+  display: block;
+}
+.side_nav ul ul {
+  display: none;
+}
+.side_nav li li a{
+  background-color: #BC8F8F;
+
+}
+.side_nav li li a:hover{
+  background-color: lightcoral;
+  color: #FFF0F5;
+}
+.side_nav li:hover>a{
+  background-color: #BC8F8F;
+}
+.side_nav ul a:hover{
+  background-color:lightcoral;
+}
+.color a{
+  background-color: lightcoral;
+}
+.main-area{
+  background-color:	#BC8F8F;
+  height: 530px;
+  border-radius: 5px;
+}
+
+
+.main-area img{
+  width:300px;
+  height: 300px;
+  margin-top: 100px;
+}
+.main-area h1{
+  font-size: 40px;
+  font-family: Georgia;
+  color: oldlace;
+  margin-bottom: 65px;
+}
+.main-area hr{
+  width: 920px;
+  height: 2px;
+  border-style:solid;
+  background-color:#BC8F8F;
+  color:#BC8F8F;
+}
+.content-area{
+  text-align: center;
+  height: 500px;
+  width: 940px;
+  margin-top: 50px;
+}
+.sidebar-left{
+float: left;
+}
+.sidebar-left p{
+  color: #BC8F8F;
+  font-size: 25px;
+  font-family:Corbel black;
+  margin-left: 160px;
+}
+.sidebar-left img{
+  width: 250px;
+  height: 250px;
+  margin-left: 150px;
+  /*box-shadow: 6px 4px 6px #BC8F8F;*/
+  border-radius: 16px;
+  margin-bottom: 10px;
+  border-style: solid;
+  border-width:medium;
+  border-color:#BC8F8F;
+}
+.sidebar-left img:hover{
+  width: 253px;
+  height: 253px;
+}
+.words p{
+  color: #BC8F8F;
+  font-size: 13px;
+  font-family: 新細明體 black;
+  margin-left: 150px;
+}
+.sidebar-right{
+  float: right;
+}
+.sidebar-right p{
+  color: #BC8F8F;
+  font-size: 25px;
+  font-family:Corbel black;
+  margin-right: 160px;
+}
+.sidebar-right img{
+  width: 250px;
+  height: 250px;
+  border-radius: 16px;
+  margin-right: 150px;
+  /*box-shadow: 6px 4px 6px #BC8F8F;*/
+  margin-bottom: 10px;
+  border-style: solid;
+  border-width:medium;
+  border-color: #BC8F8F;
+}
+.sidebar-right img:hover{
+  width: 253px;
+  height: 253px;
+}
+.word-right p{
+  color: #BC8F8F;
+  font-size: 13px;
+  font-family: 新細明體 black;
+  margin-right: 144px;
+}
+
+.footer{
+  width:1280px;
+  height: 60px;
+  border-radius: 3px;
+  background-color: #BC8F8F;
+  padding-top: 13px;
+  box-sizing: border-box;
+}
+.footer p{
+  box-sizing: border-box;
+  text-align: center;
+  color: white;
+  font-size: 12px;
+  font-family: Tahoma;
+}
+.clear{
+  clear: both;
+}
+
+
+@media screen and (max-width: 768px) {
+.container{width: 60%;}
+.header img{
+  margin-left: -520px;}
+.header p{
+    margin-left: -520px;}
+.main-area{
+    width: 700px;
+    height: 510px;
+    margin-left: -230px;
+  }
+.main-area img{
+  width: 300px;
+  height:300px;
+  border-radius: 4px;
+  margin-left:-10px;
+  margin-top: 70px;
+  margin-right:7px;}
+.main-area h1{
+    margin-left: -10px;
+    margin-bottom: 75px;
+  }
+.main-area hr{
+    width: 675px;
+    height: 1px;
+    margin-left: 10px;
+    margin-bottom: 50px;
+  }
+  .side_nav{
+      margin-left: -281px;
+      margin-bottom: 120px;
+    margin-top: 0px;}
+  .side_nav li{
+      margin-right: -50px;}
+  .main-area{
+      margin-bottom: -90px; }
+  .content-area{
+        margin-top: 110px;
+        margin-left: -360px; }
+  .content-area hr{
+    width: 690px;
+    height: 1px;
+    margin-left:131px;
+    margin-bottom: 50px;   }
+    .pictures{
+      width: 768px;
+      height: 650px;
+      margin-left: 100px; }
+      .pictures img{
+        margin-top: 20px;
+      }
+  .footer{
+        width:768px;
+        height: 50px;
+      }
+ .footer p{font-size: 12px;}
+}
